@@ -1,0 +1,33 @@
+.chat-input {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 10px;
+  background-color: grey;
+  align-items: center;
+  &__text-input {
+    width: 100%;
+    input {
+      padding: 10px;
+      border: 1px solid #ced4da;
+      border-radius: 20px;
+      outline: none;
+      width: calc(100% - 30px);
+    }
+  }
+  &__button {
+    background-image: url("../../../public/send.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #dcf8c6;
+    border: none;
+    &:hover {
+      background-color: #a1ef66;
+      cursor: pointer;
+    }
+  }
+}

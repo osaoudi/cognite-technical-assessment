@@ -1,0 +1,26 @@
+.chat-conversation-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #909090;
+  cursor: pointer;
+  &__image {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  &__label {
+    font-size: 16px;
+  }
+  &:hover {
+    background-color: #dcd7d7;
+  }
+  &--selected {
+    background-color: #dcd7d7;
+  }
+  &--new {
+    background-color: rgb(224, 120, 120);
+  }
+}
